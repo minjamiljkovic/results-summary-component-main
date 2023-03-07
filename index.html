@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700;800&family=Kumbh+Sans:wght@400;700&family=PT+Sans:wght@400;700&family=Public+Sans:wght@300;400&family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<main>
+    <section class="result">
+        <h2 class="your-result">
+          Your result
+          </h2>
+          <div class="circle">
+            <p class="correct">76</p>
+            <p class="total"> of 100</p>
+          </div>
+         <div class="kom">
+          <h1 class="great">Great</h1> 
+         <p class="para"> You scored higher than 65% of the people who have taken these tests.</p>
+         </div>
+    </section>
+    <section class="categories">
+        <h1 class="summaryh">Summary</h1>
+        <div class="right">
+        <!-- Reaction -->
+        <div class="category reaction">
+          <div class="name name-reaction">
+            <img src="assets/images/icon-reaction.svg" alt="volt">
+            <p class="cent">Reaction</p>
+          </div>
+          <div class="questions">
+            <p class="category-correct">80</p>
+            <p class="category-total">/ 100</p>
+          </div>
+        </div>
+        <!-- Memory -->
+        <div class="category memory">
+            <div class="name name-memory">
+              <img src="assets/images/icon-memory.svg" alt="brain">
+              <p class="cent">Memory</p>
+            </div>
+            <div class="questions">
+              <p class="category-correct">92</p>
+              <p class="category-total">/ 100</p>
+            </div>
+        </div>
+        <!-- Verbal -->
+        <div class="category verbal">
+            <div class="name name-verbal">
+              <img src="assets/images/icon-verbal.svg" alt="buble">
+              <p class="cent">Verbal</p>
+            </div>
+            <div class="questions">
+              <p class="category-correct">61</p>
+              <p class="category-total">/ 100</p>
+            </div>
+        </div>
+        <!-- Visual -->
+        <div class="category visual">
+          <div class="name name-visual">
+            <img src="assets/images/icon-visual.svg" alt="buble">
+            <p class="cent">Vision</p>
+          </div>
+          <div class="questions">
+            <p class="category-correct">72</p>
+            <p class="category-total">/ 100</p>
+          </div>
+        </div>
+    </div>
+    <div class="btn">
+      <a href="#" class="summary__button">Continue</a>
+    </div>
+    </section>
+
+</main>
+  <!-- BUTTON  -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Miljkovic Minja</a>.
+  </div>
+</body>
+</html>
